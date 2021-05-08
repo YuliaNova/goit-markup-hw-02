@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--main-color);
 }
 a {
@@ -64,7 +64,20 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   background: #2196f3;
+  color: #ffffff;
   cursor: pointer;
+}
+
+.text-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 .main-btn:focus,
@@ -184,7 +197,7 @@ footer > .address {
 }
 
 .logo-footer {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
