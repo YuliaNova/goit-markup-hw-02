@@ -18,7 +18,12 @@ ul {
 
 .logo-link {
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+
 .logo-color {
   color: var(--hover-color);
 }
@@ -46,12 +51,12 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--hover-color);
 }
 
 .main-btn {
@@ -87,7 +92,7 @@ ul {
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--main-color);
   color: #ffffff;
 }
 
